@@ -170,6 +170,15 @@ def kaiko(w):
 def arzafire(w):
     x = w.translate(str.maketrans('aiueoAIUEO','iueoaIUEOA'))
     x = x.translate(str.maketrans('kstnhmyrwgzdbp','stnhmrrrkzdbgp'))
+    x = x.replace('pr','py')
+    x = x.replace('sr','sy')
+    x = x.replace('nr','ny')
+    x = x.replace('hr','hy')
+    x = x.replace('mr','my')
+    x = x.replace('rr','ry')
+    x = x.replace('zr','zy')
+    x = x.replace('dr','dy')
+    x = x.replace('gr','gy')
     #print('arzafire:'+x)
     return x
 
