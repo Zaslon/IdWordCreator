@@ -194,7 +194,7 @@ while True:
         print('旗艦方言(Sekore)        :'+sekore(commone(word))+'または'+sekore(commonf(word)))
         print('資源循環艦方言(Titauini):'+titauini(commone(word))+'または'+titauini(commonf(word)))
         print('探査艦方言(Kaiko)       :'+kaiko(commone(word))+'または'+kaiko(commonf(word)))
-    if commone(arzafire(word))==commone(arzafire(word)):
+    if commone(arzafire(word))==commonf(arzafire(word)):
         print('教団暗号(Arzafire)      :'+sekore(commone(arzafire(word))))
     else:
         print('教団暗号(Arzafire)      :'+sekore(commone(arzafire(word)))+'または'+sekore(commonf(arzafire(word))))
